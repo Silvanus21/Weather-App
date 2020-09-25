@@ -6,6 +6,13 @@
   "repository": "https://github.com/Silvanus21/Weather-app.git",
   "author": "Silvanus <selvasilvanus@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "14.4.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
