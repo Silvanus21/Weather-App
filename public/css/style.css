@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body, html{
+    user-select: none;
+}
+
 body{
     background-color: aliceblue;
     font-family: "lato", sans-serif;
@@ -52,6 +56,7 @@ input{
     border-radius: 50px;
     padding: 12px 25px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 input:focus, button:focus{
@@ -71,4 +76,16 @@ button:hover{
     cursor: pointer;
     opacity: 0.8;
     transform: scale(0.98);
+}
+
+.swal2-toast {
+    box-shadow: none !important;
+    background-color: #333 !important;
+    border: 1px solid #111 !important;
+    padding: 12px !important;
+}
+
+.swal2-title {
+    letter-spacing: 1px !important;
+    color: aliceblue !important;
 }
